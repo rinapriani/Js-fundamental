@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type</title>
+</head>
+<body>
+    <h2>Menentukan Data Type</h2>
+    <p id="number"></p>
+    <p id ="string"></p>
+    <p id ="object"></p>
+
+    <script>
+        let length = 16;
+        let lastName = "Johnson";
+        const x ={
+            firstName: "John",
+            lastName : "Doe"
+        };
+
+        document.getElementById("number").innerHTML = "1. Data pertama merupakan type data "+ typeof(length);
+        document.getElementById("string").innerHTML = "2. Data kedua merupakan type data "+ typeof(lastName);
+        document.getElementById("object").innerHTML = "3. Data ketiga merupakan type data "+ typeof(x);
+
+    </script>
+</body>
+</html>
